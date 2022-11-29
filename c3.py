@@ -208,7 +208,7 @@ plt.show()
 """
 
 
-def ml(dataset):
+def ml(dataset,t):
 
     """print("DATASET:",len(dataset),len(dataset[0]),len(dataset[0][0]),len(dataset[0][0][0]),dataset[0][0][0][0])
     """
@@ -236,16 +236,16 @@ def ml(dataset):
             return out
         
     model = MnistModel()
-
-    for images, labels in train_loader:
+    return model
+"""   for images, labels in train_loader:
         print(images[0][0])
         print(len(images),len(images[0]),len(images[0][0]))
         i = np.array(images, dtype="int64")[0]
         i2 = torch.from_numpy(i)
         outputs = model(i2)
         print(outputs)
-        break
-    return model
+        break"""
+        
 
 def predict(i,m):
     return 1

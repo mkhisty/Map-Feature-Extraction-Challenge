@@ -18,8 +18,8 @@ import b2 as baseline
 import c3
 #file_name = r'AZ_Arivaca_314329_1941_62500_geo_mosaic'
 #file_loc = r'C:/Users/Owner/Desktop/USGS/Data/Training/training/'
-file_loc = r'where files are'
-results_loc = r'<where results are>'
+file_loc = r'C:/Users/Owner/Desktop/USGS/Data/Training/training/'
+results_loc = r'C:/Users/Owner/Desktop/USGS/Results'
 #feature= r"3_pt"
 finalr2=[]
 directory = os.fsencode(file_loc)
